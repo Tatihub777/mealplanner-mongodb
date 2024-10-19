@@ -1,5 +1,9 @@
 
 import './App.css';
+import { MyMeals } from './MyMeals';
+
+
+
 
 function App() {
   return (
@@ -11,7 +15,7 @@ Meal Plan
     </h1>
     <input type="text" placeholder="add a meal"/> 
     <button>ADD</button>
-    <p>test</p>
+    <MyMeals text="My meals"/>
     </div>
   );
 }
