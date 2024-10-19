@@ -18,8 +18,7 @@ app.listen(PORT, () => {
 })
 
 
-//Ksi888SulfuR
-//7KjtnKnsT5w85iEs usertati777
+
 
 
 
