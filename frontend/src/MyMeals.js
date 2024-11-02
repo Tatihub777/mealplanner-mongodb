@@ -1,11 +1,13 @@
 import { CiEdit } from "react-icons/ci";
 import { MdDelete } from "react-icons/md";
- export const MyMeals = ({text}) => {
+ export const MyMeals = ({text, updatingInput, deleteMeal}) => {
+    
     return (
         <div>
 <p>{text}</p>
-<CiEdit></CiEdit>
-< MdDelete></MdDelete>
+
+<CiEdit onClick={updatingInput}></CiEdit>
+< MdDelete onClick={deleteMeal}></MdDelete>
         </div>
     )
 }
